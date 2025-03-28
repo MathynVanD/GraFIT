@@ -29,7 +29,8 @@ function [G, G_var, Gry, Gru, Gry_var, Gru_var, Y_contr] = GraFIT(r, y, u, W, fr
 %   G           : DFT of Y, G*R, T and V for open-loop case y/r
 %   Gry         : DFT of Y, G*R, T and V for closed-loop case y/r
 %   Gru         : DFT of U, G*R, T and V for closed-loop case u/r
-% (c) Mathyn van Dael, Eindhoven University of Technology.
+% MIT License - See LICENSE file in the root directory for details.
+% Copyright (c) 2025 Mathyn van Dael
 % For any questions/bugs, mail m.r.v.dael@tue.nl
 
 % Detect if SISO inputs and wrong input size (to simplify SISO use), otherwise check if MIMO formatting is correct
